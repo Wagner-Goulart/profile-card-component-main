@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+:root {
+    --bg-color : hsl(185, 75%, 39%);
+    --text-color:  hsl(227, 10%, 46%);
+}
+
+body {
+    background-color: var(--bg-color);
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    font-family:'Kumbh Sans', sans-serif;
+    font-size: 18px;
+}
+
+.conteudo {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.imagem-padrao-topo img {
+    position: fixed;
+    right:55%;
+    bottom: 40%;
+}
+
+.container {
+    background-color: white;
+    width: 350px;
+    border-radius: 10px;
+    position: absolute;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.39);
+    z-index: 2;
+}
+
+.card-pattern {
+    overflow: hidden;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-pattern img {
+    width: 100%
+}
+
+.info-usuario {
+    text-align: center;
+    border-bottom: 2px solid rgba(150, 150, 150, 0.171);
+    transform: translateY(-50px);
+}
+
+.info-usuario img {
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+.info-usuario p {
+    font-weight: 700;
+}
+
+.nome-e-idade {
+    display: flex;
+    justify-content: center;
+}
+
+.idade-usuario,
+.cidade {
+    color:hsl(0, 0%, 59%);
+}
+
+.cidade {
+    display:inline-block;
+    padding-bottom: 20px;
+}
+
+.social-media {
+    display: flex;
+    justify-content: space-around;
+}
+
+.social-media-infos {
+    display: flex;
+    flex-direction: column;
+    transform: translateY(-20px);
+    
+}
+
+.social-media-infos span {
+    align-self: center;
+   
+}
+
+.qtd-seguidores-likes-foto {
+    font-weight: 700;
+}
+
+.seguidores-likes-fotos {
+    color: var(--text-color);
+}
+
+.attribution {
+    text-align: center;
+    font-size: 10px;
+    padding-bottom: 15px;
+    color: var(--text-color);
+}
+
+.attribution a {
+    color: black;
+    font-weight: 700;
+}
+
+.imagem-padrao-fundo {
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    width: 70%;
+}
+
+
+
+
+
+
