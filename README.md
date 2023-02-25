@@ -16,7 +16,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Deploy](https://wagner-goulart.github.io/profile-card-component-main/)
 
 ### Built with
 
@@ -31,9 +31,6 @@ I have some issues to put them in the right place, try to positiong using positi
 
 I fix it with postion fixed, and the scrolls are gone.
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
 ```css
 .imagem-padrao-topo img {
     position: fixed;
